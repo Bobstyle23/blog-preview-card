@@ -16,4 +16,79 @@ body {
   font-weight: 500;
   line-height: 1;
   overflow-x: hidden;
+  background-color: #f4d04e;
+}
+
+.main-container {
+  width: 38.4rem;
+  height: 52.2rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  margin: 21.95rem auto;
+  padding: 2.4rem;
+  box-shadow: 0.8rem 0.8rem 0 #000;
+  border: 1px solid #000;
+}
+
+.header__image {
+  max-width: 33.6rem;
+  height: 20rem;
+  border-radius: 1rem;
+  margin-bottom: 2.4rem;
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.blog__title {
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 1.5;
+  color: #111;
+}
+
+.blog__badge {
+  padding: 0.4rem 1.2rem;
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 1.5;
+  background-color: #f4d04e;
+  align-self: start;
+  color: #111;
+}
+
+.blog__publish-date {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.blog__info {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #6b6b6b;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.author__image {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.author__name {
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 1.5;
+  color: #111;
 }

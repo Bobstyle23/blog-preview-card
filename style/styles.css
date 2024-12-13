@@ -20,7 +20,7 @@ body {
 }
 
 .main-container {
-  width: 38.4rem;
+  max-width: 38.4rem;
   height: 52.2rem;
   background-color: #fff;
   border-radius: 2rem;
@@ -49,6 +49,11 @@ body {
   font-weight: 800;
   line-height: 1.5;
   color: #111;
+}
+
+.blog__title:hover {
+  color: #f4d04e;
+  cursor: pointer;
 }
 
 .blog__badge {

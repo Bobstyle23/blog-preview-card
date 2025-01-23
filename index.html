@@ -20,14 +20,29 @@
     <title>Blog preview card</title>
   </head>
   <body>
-    <main class="main-container">
+    <main class="main">
       <header class="header">
-        <img
-          class="header__image"
-          src="./assets/images/illustration-article.svg"
-          alt="Illustration-article"
-        />
+        <picture>
+          <source
+            srcset="./assets/images/blog-image-desktop.png"
+            type="image/png"
+            media="(min-width: 48em)"
+          />
+
+          <source
+            src="./assets/images/blog-image-mobile.png"
+            type="image/png"
+            media="(min-width: 24em)"
+          />
+
+          <img
+            class="header__image"
+            src="./assets/images/blog-image-mobile.png"
+            alt="Illustration-article"
+          />
+        </picture>
       </header>
+
       <section class="blog">
         <p class="blog__badge">Learning</p>
         <p class="blog__publish-date">Published 21 Dec 2023</p>
@@ -48,4 +63,3 @@
     </main>
   </body>
 </html>
-
